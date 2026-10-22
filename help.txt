@@ -1,0 +1,9 @@
+firebase deploy --only hosting:documentacao
+
+{
+  "hosting": {
+    "site": "documentacao",
+    "public": "build",
+    ...
+  }
+}
