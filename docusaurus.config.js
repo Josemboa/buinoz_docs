@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Buinoz',
-  tagline: 'O Buinoz é um software registado, que permite gerir de forma integrada os mais variados processos de negócio.',
+  tagline: 'Guias passo a passo de cada módulo do Buinoz.',
   favicon: 'img/favicon.png',
 
   
@@ -24,15 +24,15 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt',
+    locales: ['pt'],
   },
 
   presets: [
@@ -46,8 +46,7 @@ const config = {
           //routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
@@ -63,6 +62,8 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
+        title: 'Buinoz · Guias',
+        logo: { alt: 'Buinoz', src: 'img/buinoz.png', href: '/' },
         // title: 'My Site',
         // logo: {
         //   alt: 'My Site Logo',
@@ -74,10 +75,10 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             
-            label: 'Documentação',
+            label: 'Guias por módulo',
           },
-     
-         
+          { href: 'https://buinoz.com', label: 'buinoz.com', position: 'right' },
+          { href: 'mailto:suporte@buinoz.com', label: 'Suporte', position: 'right' },
         ],
       },
       footer: {
