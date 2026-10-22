@@ -22,7 +22,8 @@ Cada ecrã do Buinoz tem um código no menu (por exemplo **F02 - Facturas**). Pr
 | [Aprovações e Requisições](aprovacoes) | AR01 - AR07 | Requisições, regras e aprovação por etapas |
 | [Contabilidade](contabilidade) | CBL | Plano de contas, lançamentos, balancete e relatórios |
 | [Microcrédito](microcredito) | MC01 - MC08 | Mutuários, empréstimos, cobranças e relatórios |
-| [Automações](automacoes) | AU01 | Tarefas automáticas |
+| [Automações](automacoes) | AU01 | Tarefas automáticas (guias do INSS) |
+| [Administração](administracao) | ADM01 - ADM16 | Lojas, utilizadores, funções, licença (sem imagens) |
 
 As imagens usam a loja de demonstração **Supermercado Buinoz**. Os nomes e valores são dados de demonstração.
 

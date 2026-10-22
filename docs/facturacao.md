@@ -36,7 +36,7 @@ Exemplo: factura a **Leonel Duarte** com 2 Coca Cola e 1 Farinha.
 
    ![Escolher cliente](/img/guias/facturacao/F02_02_escolher_cliente.webp)
 
-3. Toque em **Pagamento** para mudar a data de vencimento, se precisar.
+3. Toque em **Pagamento** e escolha a **data de vencimento** no calendário. Faça-o sempre: senão a factura fica com a data em que o carrinho foi aberto.
 4. Carregue em **+ Producto** e toque nos produtos. Cada toque junta 1 unidade. Feche com o **X**.
 
    ![Escolher produtos](/img/guias/facturacao/F02_03_produtos.webp)

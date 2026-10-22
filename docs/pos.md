@@ -20,9 +20,17 @@ POS01 Vendedor + PIN -> carrinho -> Finalizar -> talão (ou QR) -> TSR02 caixa -
 
    ![Escolher vendedor e PIN](/img/guias/pos/POS01_02_pin_vendedor.webp)
 
-3. Carregue em **+ Producto** (ou leia o código de barras) e toque nos produtos.
-4. Escolha o método de pagamento (**Numerário, POS, Mpesa, Emola, Mkesh, Banco**), escreva o **Valor pago** e veja o **Troco**.
-5. Carregue em **Finalizar**. Imprima o talão ou mostre o **código QR**: o cliente digitaliza-o e descarrega o talão em PDF, sem papel.
+3. O nome do vendedor aparece no topo (**Mudar Vendedor** troca). Carregue em **+ Producto** (ou leia o código de barras) e toque nos produtos. Feche com o **X**.
+
+   ![Produtos](/img/guias/pos/POS01_04_produtos.webp)
+
+4. Escolha o método de pagamento (**Numerário, POS, Mpesa, Emola, Mkesh, Banco**), escreva o **Valor pago** e veja o **Troco** (ex.: total 119,99, pago 200, troco 80,01).
+
+   ![Carrinho](/img/guias/pos/POS01_05_carrinho.webp)
+
+5. Carregue em **Finalizar**. A venda fica com número (ex.: **VD 68/LOJA56-2026**). Use **Imprimir A4**, **Talão**, **Abrir PDF**, **WhatsApp**, ou mostre o **código QR**: o cliente digitaliza-o e descarrega o talão em PDF, sem papel. **Novo** começa a venda seguinte.
+
+   ![Venda finalizada](/img/guias/pos/POS01_06_finalizada.webp)
 
 A VD usa sempre o cliente genérico **Geral**. Para facturar a um cliente com NUIT, use **F02 Facturas**.
 
