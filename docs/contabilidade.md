@@ -24,7 +24,28 @@ As classes 1 a 9 do PGC-NIRF, com as sub-contas. Abra uma classe para ver as con
 
 ### CBL28 - Configuração Contabilística {#cbl28}
 
-Escolha o **ano fiscal activo**, o **país/plano** (Moçambique, PGC-NIRF) e as contas usadas nos lançamentos automáticos: caixa (VD), banco, clientes (FA), vendas de mercadorias, prestações de serviços, IVA liquidado, e as contas de receitas isentas.
+Escolha o **ano fiscal activo**, o **país/plano** (Moçambique, PGC-NIRF) e as contas usadas nos lançamentos automáticos: caixa (VD), banco, clientes (FA), vendas de mercadorias, prestações de serviços, IVA liquidado, e as contas de receitas isentas. Ao gravar, a app avisa se uma conta não existe no plano ou está na classe errada.
+
+Contas oficiais do PGC-NIRF (Decreto 70/2009) usadas por defeito:
+
+| Uso | Conta | Nome oficial |
+|---|---|---|
+| Venda a dinheiro (VD) | 111 | Caixa |
+| Pagamentos por banco | 121 | Depósitos à ordem |
+| Factura a crédito (FA) | 411 | Clientes c/c |
+| Compras a crédito (PO) | 421 | Fornecedores c/c |
+| Compras de mercadorias | 211 | Compras de mercadorias |
+| Despesas (EX) | 63299 | Outros fornecimentos e serviços |
+| Água, electricidade, combustíveis | 63211, 63212, 63213 | Fornecimentos e serviços |
+| Rendas | 63232 | Rendas e alugueres |
+| Salários | 62 | Gastos com o pessoal |
+| Empréstimos obtidos | 43 | Empréstimos obtidos |
+| IVA das compras | 4432 | IVA dedutível |
+| IVA das vendas | 4433 | IVA liquidado |
+| Vendas de mercadorias | 711 | Vendas |
+| Prestações de serviços | 721 | Prestações de serviços |
+
+Uma despesa paga na hora (numerário ou banco) sai de 111 ou 121, não de 421.
 
 ![Configuração](/img/guias/contabilidade/CBL28_01.webp)
 
@@ -52,7 +73,7 @@ Registe as contas bancárias (para a reconciliação) e os centros de custo (par
 
 Exemplo: contabilizar a factura FA 6/LOJA56-2026.
 
-1. Escolha **Data inicial** e **Data final**. O separador **Pendentes** mostra as vendas por contabilizar.
+1. Escolha **Data inicial** e **Data final** (ou **Todas as datas**). O separador **Pendentes** mostra as vendas por contabilizar. A linha **Contas:** mostra as contas que vão ser usadas.
 2. Carregue em **Contabilizar** na venda (ou marque várias e use **Selecionar todos**).
 
    ![Venda pendente](/img/guias/contabilidade/CBL02_02_pendente.webp)
@@ -61,13 +82,23 @@ Exemplo: contabilizar a factura FA 6/LOJA56-2026.
 
    ![Venda contabilizada](/img/guias/contabilidade/CBL02_03_contabilizada.webp)
 
-4. Em **CBL06**, o lançamento aparece em rascunho. Neste exemplo: débito 411 Clientes 131,59; crédito 711 Vendas 113,44; crédito 4321 IVA liquidado 18,15.
+4. Em **CBL06**, o lançamento aparece em **rascunho**. Neste exemplo: débito 411 Clientes 131,59; crédito 711 Vendas 113,44; crédito 4433 IVA liquidado 18,15.
 
    ![Lançamento gerado](/img/guias/contabilidade/CBL06_03_detalhe.webp)
 
+5. **Contabilizar não é lançar.** Abra o lançamento em CBL06 e carregue em **Aprovar e Lançar**. Só os lançamentos **Lançados** contam no balancete, nos resultados, no balanço e na Vista Executiva (I01).
+
+:::danger Atenção: vendas sempre pela CBL02
+As vendas contabilizam-se sempre pela **CBL02**, nunca por diário manual (CBL05). O diário manual fica para o que não é documento: salários, rendas, ajustes. Se lançar as vendas à mão e depois também pela CBL02, a receita fica a dobrar.
+:::
+
+Se já existir um lançamento manual de vendas no mesmo mês com valor próximo (±5%), a CBL02 avisa **Possível duplicado** antes de contabilizar. Confirme só se tem a certeza de que não são as mesmas vendas.
+
+![Aviso de possível duplicado](/img/guias/contabilidade/CBL02_04_duplicado.webp)
+
 ### CBL03 - Compras para Contabilizar, CBL04 - Stock para Contabilizar {#cbl03}
 
-Funcionam como a CBL02, para as compras e para os movimentos de stock (ganhos e perdas).
+Funcionam como a CBL02, para as compras e para os movimentos de stock (ganhos e perdas). Uma compra (PO) vai para 211 Compras + 4432 IVA dedutível, contra 421 Fornecedores. Uma despesa (EX) vai para 63x, contra 111/121 se foi paga na hora. Depois, como nas vendas: **Aprovar e Lançar** em CBL06.
 
 ![Compras para contabilizar](/img/guias/contabilidade/CBL03_01.webp)
 
@@ -84,7 +115,7 @@ Funcionam como a CBL02, para as compras e para os movimentos de stock (ganhos e 
 
 ### CBL06 - Lançamentos Contabilísticos {#cbl06}
 
-Todos os lançamentos, com número, diário, documento de origem, data e valor. Filtre por estado (Rascunho, Lançado). Toque num lançamento para ver as linhas; a seta envia-o (de rascunho para lançado).
+Todos os lançamentos, com número, diário, documento de origem, data e valor. Filtre por estado (Rascunho, Lançado). Toque num lançamento para ver as linhas; **Aprovar e Lançar** passa-o de rascunho para lançado (aparece uma mensagem verde). Um lançamento lançado não se apaga: corrige-se com **Estornar**.
 
 ![Lançamentos](/img/guias/contabilidade/CBL06_02_lista.webp)
 

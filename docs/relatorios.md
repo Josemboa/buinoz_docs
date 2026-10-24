@@ -43,6 +43,40 @@ O Dashboard tem vários relatórios de vendas. Escolha o tipo, o período e carr
 ![Performance](/img/guias/informacao/I01_06_performance.webp)
 ![Vendas por hora](/img/guias/informacao/I01_09_por_hora.webp)
 
+### Vista Executiva {#i01-executiva}
+
+No topo do I01, o botão **Vista: Clássica | Executiva** troca de vista. A Vista Executiva mostra o negócio num relance, com separadores.
+
+:::danger Atenção: só conta o que está contabilizado
+O separador **Início** e os resultados usam a contabilidade. Uma venda ou compra só aparece depois de **Contabilizar** (CBL02/CBL03) e de **Aprovar e Lançar** (CBL06). Se o mês mostra 0, contabilize primeiro.
+:::
+
+| Separador | O que mostra |
+|---|---|
+| **Início** | Resultados (mês passado, este mês, este ano), despesas dos últimos 30 dias, saldo de caixa e bancos, fluxo de caixa de 12 meses e os relatórios favoritos |
+| **Vendas** | Rendimentos ao longo do tempo (pode comparar com o ano anterior) e o estado das facturas |
+| **Facturas** | As facturas por pagar e pagas, com filtros de estado, data e cliente |
+| **Transacções de venda** | Todos os documentos de venda (facturas, cotações), com tipo, estado e valor |
+| **Despesas** | Compras e despesas, com beneficiário, categoria, valor sem IVA, IVA e total |
+| **Produtos e serviços** | Os artigos com stock, preço e custo; avisa artigos sem custo, sem stock ou com pouco stock |
+| **Inventário** | Pouco stock, sem stock, produtos mais vendidos e ordens de compra em aberto |
+| **Relatórios** | Lista de relatórios por tema; a estrela marca um relatório como favorito (aparece no Início) |
+
+1. Abra **I01** e carregue em **Executiva**.
+2. Em **Resultados**, escolha **Este ano** para ver um período maior. **Ver resultados por mês** abre a demonstração de resultados mês a mês.
+
+   ![Início da Vista Executiva](/img/guias/informacao/I01_20_exec_inicio.webp)
+
+3. Abra cada separador para ver o detalhe.
+
+   ![Vendas](/img/guias/informacao/I01_21_exec_vendas.webp)
+   ![Facturas](/img/guias/informacao/I01_22_exec_facturas.webp)
+   ![Transacções de venda](/img/guias/informacao/I01_23_exec_transaccoes.webp)
+   ![Despesas](/img/guias/informacao/I01_24_exec_despesas.webp)
+   ![Produtos e serviços](/img/guias/informacao/I01_25_exec_produtos.webp)
+   ![Inventário](/img/guias/informacao/I01_26_exec_inventario.webp)
+   ![Relatórios e favoritos](/img/guias/informacao/I01_27_exec_relatorios.webp)
+
 ## I02 - Exploração {#i02}
 
 A Exploração lista todos os documentos (vendas, facturas, compras, despesas) de um período. É aqui que se fazem as acções sobre cada documento.

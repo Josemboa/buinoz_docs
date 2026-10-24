@@ -77,6 +77,7 @@ const config = {
             
             label: 'Guias por módulo',
           },
+          { to: '/arquivos', label: 'Arquivos', position: 'left' },
           { href: 'https://buinoz.com', label: 'buinoz.com', position: 'right' },
           { href: 'mailto:suporte@buinoz.com', label: 'Suporte', position: 'right' },
         ],

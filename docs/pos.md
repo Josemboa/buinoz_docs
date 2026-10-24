@@ -44,9 +44,73 @@ Igual à POS01, mas funciona sem internet. As vendas ficam guardadas no aparelho
 
 ## POS03 - Tela de Produção {#pos03}
 
-O ecrã da cozinha ou da produção: mostra os pedidos de cada vendedor para preparar.
+Para restaurantes, bares, salões e qualquer negócio com **mesas, postos ou cadeiras**. O pedido fica aberto no posto enquanto o cliente consome. A cozinha (ou o barbeiro, ou o bar) vê o que tem de preparar. No fim, o vendedor cobra o pedido de uma só vez.
 
-![Tela de produção](/img/guias/pos/POS03_01.webp)
+```
+Vendedor -> Adicionar um Pedido -> escolher posto -> + Producto -> enviar para produção
+         -> Pedidos (cozinha): Feito / Imprimir guia -> Finalizar (cobrar) -> posto livre
+```
+
+Antes de começar: crie os postos em **ADM08 Gestão de Postos** (ex.: Mesa 1, Caixa 1, Cadeira 2) e os vendedores com PIN.
+
+### 1. Abrir um pedido
+
+1. Abra **POS03**. O vendedor activo aparece no topo. **Mudar Vendedor** troca de vendedor (com PIN).
+
+   ![Tela de produção](/img/guias/pos/POS03_01.webp)
+
+2. Carregue em **Adicionar um Pedido** e toque no posto livre (ex.: **Caixa Cantina Songo**, estado **Disponível**). Confirme em **Criar um pedido**.
+
+   ![Escolher o posto](/img/guias/pos/POS03_02_escolher_posto.webp)
+
+3. O pedido aparece na lista com o nome do posto, a hora de abertura e há quanto tempo está aberto (**Criado há N min**). **Total** mostra quantos pedidos estão abertos.
+
+   ![Pedido aberto](/img/guias/pos/POS03_03_pedido_aberto.webp)
+
+### 2. Juntar produtos e enviar para a produção
+
+1. Toque no posto para abrir o pedido. Carregue em **+ Producto** (ou leia o código de barras) e escolha os produtos.
+
+   ![Carrinho do posto](/img/guias/pos/POS03_04_posto_carrinho.webp)
+
+2. Carregue no ícone verde **guardar** (à esquerda do código de barras). As linhas ficam **trancadas** (cadeado vermelho) e o pedido segue para o ecrã **Pedidos** da cozinha. O ícone da **impressora** imprime só as linhas novas, ainda não enviadas.
+
+   ![Enviado para a produção](/img/guias/pos/POS03_05_enviado_producao.webp)
+
+3. O cliente pede mais? Abra o mesmo posto, junte produtos e envie outra vez. Só as linhas novas vão para a cozinha.
+
+### 3. A cozinha: ecrã Pedidos
+
+1. No topo da POS03, carregue em **Pedidos** (laranja). Ponha este ecrã num tablet ou TV na cozinha: actualiza sozinho.
+2. Cada cartão é um posto, com o número do documento (**VD**) e o contador **feitos / total** (ex.: **0/1**).
+
+   ![Pedidos da cozinha](/img/guias/pos/POS03_06_pedidos.webp)
+
+3. Marque as caixas das linhas e carregue em **Imprimir (N)** para imprimir a **Guia de Entrega** (para o empregado levar à mesa).
+
+   ![Seleccionar e imprimir](/img/guias/pos/POS03_07_seleccionar_imprimir.webp)
+
+4. O **funil** filtra por categoria: por exemplo, o bar só vê **Bebidas** e a cozinha só vê **Comida**.
+
+   ![Filtrar por categoria](/img/guias/pos/POS03_08_filtrar_categoria.webp)
+
+5. Quando o produto está pronto, carregue em **Feito**. A linha fica riscada e o cartão fica verde quando tudo está feito (ex.: **1/1**).
+
+   ![Feito](/img/guias/pos/POS03_09_feito.webp)
+
+### 4. Cobrar e fechar o posto
+
+1. Abra o posto. Escolha o método de pagamento (**Numerário, POS, Mpesa, Emola, Mkesh, Banco**) e escreva o **Valor pago**.
+2. Carregue em **Finalizar**. A venda fica registada como **VD**.
+3. **Cancelar Pedido** apaga um pedido aberto (precisa da permissão de apagar). Um pedido já finalizado não se apaga.
+
+![Mudar vendedor](/img/guias/pos/POS03_10_mudar_vendedor.webp)
+
+:::tip Ideias de uso
+- **Restaurante e bar:** um posto por mesa, cozinha e bar com filtros de categoria diferentes.
+- **Salão de beleza e barbearia:** um posto por cadeira; o cliente junta serviços e paga no fim.
+- **Lavandaria e oficina:** um posto por cliente ou viatura; a equipa marca **Feito** em cada serviço.
+:::
 
 ## POS04 - Sincronização Offline {#pos04}
 
