@@ -78,6 +78,15 @@ const config = {
             label: 'Guias por módulo',
           },
           { to: '/arquivos', label: 'Arquivos', position: 'left' },
+          {
+            type: 'dropdown', label: 'Comercial', position: 'left',
+            items: [
+              { to: '/apresentacao', label: 'Apresentação' },
+              { to: '/precos', label: 'Preços' },
+              { to: '/termos', label: 'Termos e SLA' },
+              { to: '/comercial', label: 'Baixar tudo' },
+            ],
+          },
           { href: 'https://buinoz.com', label: 'buinoz.com', position: 'right' },
           { href: 'mailto:suporte@buinoz.com', label: 'Suporte', position: 'right' },
         ],
