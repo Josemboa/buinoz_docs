@@ -3,9 +3,18 @@ title: POS e Tesouraria
 sidebar_position: 5
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # POS e Tesouraria (POS01 - POS04, TSR01 - TSR05)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-pos.pdf)
+
+### Vídeos
+
+<YouTube id="J-TU0hW-7dc" title="Sessão 5: VD online/offline e venda por postos" />
+
+<YouTube id="ZH3hlBOVCkI" title="Sessão 7: Buinoz em restaurantes" />
+
 
 Venda ao balcão (Venda a Dinheiro, VD), venda sem internet, ecrã da cozinha, e o controlo da caixa: abertura, conferência e fecho.
 

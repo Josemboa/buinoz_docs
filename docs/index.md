@@ -4,7 +4,16 @@ title: Guias do Buinoz
 sidebar_position: 0
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Guias do Buinoz
+
+### Vídeos: passo a passo
+
+<YouTube list="PLywIdePFQsJ9r77bOPnY3J752lCxIBsGw" title="Buinoz v2 - Passo a passo (playlist)" />
+
+Mais vídeos no canal [youtube.com/@buinoz](https://www.youtube.com/@buinoz).
+
 
 Um guia por módulo, com os passos de cada ecrã e imagens reais da aplicação. Siga os passos pela ordem e repita na sua loja.
 

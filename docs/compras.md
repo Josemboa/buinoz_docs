@@ -3,9 +3,16 @@ title: Compras e Despesas
 sidebar_position: 6
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Compras e Despesas (CD01 - CD07)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-compras.pdf)
+
+### Vídeo
+
+<YouTube id="T-TmBWxP_qM" title="Sessão 4: Módulo de Compras e Despesas" />
+
 
 Fornecedores, compras de mercadoria (PO), despesas (EX), apoio à encomenda e o painel de despesas.
 

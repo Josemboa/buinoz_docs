@@ -3,9 +3,16 @@ title: Relatórios e Informação
 sidebar_position: 2
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Relatórios e Informação (I01 - I07)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-relatorios.pdf)
+
+### Vídeo
+
+<YouTube id="erI6X5qfKrk" title="Sessão 8: Relatórios e Dashboard" />
+
 
 Este módulo mostra as vendas, o stock e os resultados da loja. Não cria documentos: só lê. Use-o todos os dias para saber quanto vendeu, o que falta e onde está o lucro.
 

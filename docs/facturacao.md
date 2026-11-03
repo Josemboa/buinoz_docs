@@ -3,9 +3,18 @@ title: Facturação e Inventário
 sidebar_position: 4
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Facturação e Inventário (F01 - F14)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-facturacao.pdf)
+
+### Vídeos
+
+<YouTube id="zE9dU0weofM" title="Sessão 6: Módulo de Facturação e Inventário" />
+
+<YouTube id="GGwa2b3GgdM" title="Buinoz em 4 minutos: factura com pagamento parcelado" />
+
 
 Clientes, facturas, cotações, notas de crédito, inventário e a declaração de IVA (Modelo A).
 

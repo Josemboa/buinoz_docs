@@ -3,9 +3,16 @@ title: Automações
 sidebar_position: 12
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Automações (AU01)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-automacoes.pdf)
+
+### Vídeo
+
+<YouTube id="R-EwkMSY0EE" title="Automação de Guias do INSS" />
+
 
 ## AU01 - INSS Guias {#au01}
 

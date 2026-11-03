@@ -3,9 +3,18 @@ title: Produtos e Preços
 sidebar_position: 3
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Produtos e Preços (P01 - P06)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-produtos.pdf)
+
+### Vídeos
+
+<YouTube id="dHBBdk33EqM" title="Sessão 2: Como criar um produto" />
+
+<YouTube id="-BrEhOsuQ2s" title="Sessão 3: Como alterar o preço dos produtos" />
+
 
 Aqui cria e mantém os produtos: preço de venda (PVP), custo, IVA, categoria, stock mínimo, código de barras e onde ficam na loja.
 

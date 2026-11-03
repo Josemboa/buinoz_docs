@@ -3,11 +3,18 @@ title: Administração
 sidebar_position: 13
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Administração (ADM01 - ADM16)
 
 A base do sistema: lojas, utilizadores, funções (permissões), vendedores, postos, câmbios, licença e séries de documentos. Tudo o resto depende destas definições, por isso só os administradores devem ter acesso completo.
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-administracao.pdf)
+
+### Vídeo
+
+<YouTube id="BlwvdgTq9gg" title="Sessão 1: Gestão de utilizadores e Roles" />
+
 
 > Este guia ainda não tem imagens.
 
