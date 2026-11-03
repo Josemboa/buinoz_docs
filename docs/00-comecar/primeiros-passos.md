@@ -7,6 +7,12 @@ custom_edit_url: null
 
 ## Primeiros passos
 
+### Vídeo (5 min)
+
+<video controls preload="metadata" style={{width: '100%', borderRadius: 8}} src="/video/buinoz-tour-primeiros-passos.mp4"></video>
+
+[Descarregar o vídeo](/video/buinoz-tour-primeiros-passos.mp4) · [Guia em PDF](/pdf/buinoz-guia-primeiros-passos.pdf)
+
 Ao entrar no Buinoz, a lista **Primeiros passos** mostra 9 passos. Cada passo tem uma seta que abre o ecrã certo. No fim, a sua loja vende, factura e cobra.
 
 0. **Criar a conta**: nome e email; a palavra-passe chega por email.
