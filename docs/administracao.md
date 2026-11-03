@@ -47,7 +47,7 @@ Escolha outra loja onde trabalha. O Buinoz recarrega tudo (permissões, produtos
 ## ADM04 - Gestão de Utilizadores {#adm04}
 
 1. O novo utilizador abre **I04 Sua Informação**, copia o **Full ID** e envia-o ao administrador.
-2. O administrador abre **ADM04**, carrega em **Adicionar usuário**, cola o Full ID e escolhe a função.
+2. O administrador abre **ADM04**, carrega em **Adicionar usuário**, cola o Full ID e escolhe a função. Escreva pelo menos os **8 primeiros caracteres** do Full ID; o Buinoz mostra só esse utilizador.
 3. Carregue em **Actualizar**.
 
 Apagar um utilizador tira-lhe o acesso à loja; os documentos que criou ficam.

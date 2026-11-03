@@ -14,6 +14,38 @@ MC08 Configurações -> MC02 Produto -> MC07 Contrato -> MC01 Mutuário
 -> MC04 Novo empréstimo -> MC03 Aprovar -> Desembolsar -> Pagamentos -> MC05 Cobranças -> MC06 Relatórios
 ```
 
+## Apresentação {#apresentacao}
+
+**O problema:** o crédito vive em cadernos e Excel. O juro e a multa são calculados à mão. Ninguém sabe ao certo quem está em atraso hoje.
+
+**A solução:** o produto define as regras uma vez. A calculadora mostra o plano antes de assinar. Cada empréstimo passa por aprovação, tem contrato em PDF e cada pagamento tem recibo. A multa entra sozinha. O ecrã Cobranças diz quem paga hoje. Os relatórios mostram a carteira em risco (PAR).
+
+**Demo em 10 passos** (5 000 MT, 10% ao mês, 4 prestações mensais, taxa de 2% descontada):
+
+1. **MC08**: active o relatório diário e envie um teste.
+2. **MC02**: crie o produto (prestação constante, 10% por mês, 4 prestações, taxa 2% descontada no desembolso).
+3. **MC07**: crie o modelo de contrato padrão.
+4. **MC01**: crie a mutuária.
+5. **MC04**: calcule o plano. Prestação de 1 577,35 MT, juros 1 309,43 MT, valor a entregar 4 900,00 MT.
+6. Crie o empréstimo. Fica **Em análise**.
+7. **MC03**: **Aprovar** e **Desembolsar**. Imprima o **Contrato**.
+8. **Registar pagamento** de 1 577,35 MT. Recibo em PDF. Saldo em dívida: 4 732,08 MT.
+9. **MC05**: veja o que há a cobrar e envie o **Lembrete WhatsApp**.
+10. **MC06**: Resumo, PAR e Resultados e caixa, em PDF.
+
+## Permissões {#permissoes}
+
+As permissões são por perfil, em cada loja. O servidor confirma cada acção.
+
+| Permissão | O que deixa fazer |
+|---|---|
+| Gerir mutuários, produtos e empréstimos | Criar mutuários, produtos, modelos e empréstimos; configurações |
+| Aprovar e desembolsar | Aprovar, recusar, desembolsar e estornar pagamentos |
+| Registar pagamentos | Registar pagamentos, pagamentos em lote e liquidação antecipada |
+| Ver relatórios | MC06 Relatórios |
+
+O dono da loja tem sempre todas as permissões.
+
 ## MC08 - Configurações {#mc08}
 
 - **Hora de envio** dos e-mails e lembretes.
@@ -56,7 +88,7 @@ O produto define as condições de cada empréstimo.
 
 ## MC07 - Modelos de Contrato {#mc07}
 
-O contrato padrão usa **{Campos}** (nome do cliente, valor, prazo...) que são preenchidos sozinhos em cada empréstimo.
+O contrato padrão usa **{Campos}** (nome do cliente, valor, prazo...) que são preenchidos sozinhos em cada empréstimo. O modelo marcado como padrão é o usado no PDF. Apagar um modelo pede confirmação.
 
 ![Modelo de contrato](/img/guias/microcredito/12_mc07_modelo_contrato.webp)
 
@@ -76,14 +108,16 @@ A calculadora mostra o plano de pagamentos antes de criar o crédito. Exemplo: 5
 | Método | Resultado |
 |---|---|
 | Taxa fixa | 2 000 MT de juros |
-| Prestação constante | 1 309 MT por mês |
+| Prestação constante | 1 577,35 MT por mês (1 309,43 MT de juros) |
 | Capital constante | 1 250 MT de capital por mês; as prestações descem |
 | Só juros | 500 MT por mês e o capital no fim |
 | Juro composto | 2 320 MT de juros |
 
-1. Escolha o **mutuário**, o **produto** e o **valor**.
-2. Confira o plano.
+1. Escolha o **mutuário**, o **produto** e o **valor**. Sem mutuário, o ecrã serve só de calculadora.
+2. Carregue em **Calcular plano** e confira. Se mudar o valor, o juro, as prestações ou as datas, o plano desaparece: carregue outra vez em **Calcular plano**.
 3. Crie o crédito. Fica **Em análise**.
+
+O juro não pode ser negativo. Mutuários **Inactivos** ou na **Lista negra** não podem receber novos empréstimos.
 
 ![Taxa fixa](/img/guias/microcredito/15a_mc04_flat.webp)
 ![Prestação constante](/img/guias/microcredito/15b_mc04_prestacao_constante.webp)
@@ -124,19 +158,19 @@ A calculadora mostra o plano de pagamentos antes de criar o crédito. Exemplo: 5
 
 ### Liquidação antecipada
 
-Calcula o valor para pagar tudo antes do prazo e permite **perdoar os juros futuros**. O histórico guarda os juros perdoados.
+Calcula o valor para pagar tudo antes do prazo e permite **perdoar os juros futuros**. O histórico guarda os juros perdoados. Se estornar o recibo da liquidação, os juros perdoados voltam ao plano.
 
 ![Liquidação antecipada](/img/guias/microcredito/33_celina_liquidacao_dialogo.webp)
 
 ### Filtros
 
-Filtre por estado: em curso, em atraso, em análise, pagos, em incumprimento. No topo, a carteira e o PAR.
+Filtre por estado: em curso, em atraso, em análise, pagos, em incumprimento. No topo, a carteira e o PAR. A lista mostra os 2000 empréstimos mais recentes; para a carteira completa use MC06.
 
 ![Filtros](/img/guias/microcredito/26_mc03_lista_filtros.webp)
 
 ## MC05 - Cobranças {#mc05}
 
-O que há a cobrar (até hoje, próximos 7 dias, até ao fim do mês), o que está em atraso e o que já entrou hoje. Cobre daqui mesmo com **Receber**, ou use **Pagamentos em lote** (até 30 de uma vez).
+O que há a cobrar (até hoje, próximos 7 dias, até ao fim do mês), o que está em atraso (só prestações já vencidas) e o que já entrou hoje. Cobre daqui mesmo com **Receber**, ou use **Pagamentos em lote** (até 30 de uma vez).
 
 ![Cobranças](/img/guias/microcredito/37_mc05_ate_hoje.webp)
 ![Receber](/img/guias/microcredito/40_mc05_receber_dialogo.webp)
@@ -144,7 +178,11 @@ O que há a cobrar (até hoje, próximos 7 dias, até ao fim do mês), o que est
 
 ## MC06 - Relatórios de Crédito {#mc06}
 
-Sete relatórios, em PDF ou Excel: **Resumo**, **Carteira em risco (PAR)**, **Previsto vs cobrado**, **Desembolsos**, **Por gestor**, **Por produto** e **Resultados e caixa**.
+Sete relatórios, em PDF (e em Excel na versão web): **Resumo**, **Carteira em risco (PAR)**, **Previsto vs cobrado**, **Desembolsos**, **Por gestor**, **Por produto** e **Resultados e caixa**.
+
+- Escolha o período no botão de datas. Os valores da carteira (em curso, em atraso, PAR) são sempre à data de hoje.
+- **Por gestor**: o gestor é o utilizador que registou o mutuário (nos mutuários antigos, quem criou o empréstimo).
+- Os dias de atraso e as multas contam pela data de Moçambique (Africa/Maputo).
 
 ![Resumo](/img/guias/microcredito/42_mc06_resumo.webp)
 ![Carteira em risco](/img/guias/microcredito/43_mc06_par.webp)
