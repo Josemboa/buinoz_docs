@@ -21,6 +21,7 @@ Cada ecrã do Buinoz tem um código no menu (por exemplo **F02 - Facturas**). Pr
 
 | Módulo | Códigos | O que faz |
 |---|---|---|
+| [Novidades](novidades) | - | O que há de novo em cada versão do Buinoz |
 | [Relatórios e Informação](relatorios) | I01 - I07 | Vendas, stock, dashboards e fluxo do negócio |
 | [Produtos e Preços](produtos) | P01 - P06 | Produtos, preços, categorias, prateleiras e compostos |
 | [Facturação e Inventário](facturacao) | F01 - F14 | Clientes, facturas, cotações, notas de crédito, IVA |
@@ -31,9 +32,10 @@ Cada ecrã do Buinoz tem um código no menu (por exemplo **F02 - Facturas**). Pr
 | [Aprovações e Requisições](aprovacoes) | AR01 - AR07 | Requisições, regras e aprovação por etapas |
 | [Contabilidade](contabilidade) | CBL | Plano de contas, lançamentos, balancete e relatórios |
 | [Microcrédito](microcredito) | MC01 - MC08 | Mutuários, empréstimos, cobranças e relatórios |
+| [Lavandaria](lavandaria) | LA01 - LA06 | Recolha, lavagem, entrega e factura do mês, peça a peça |
 | [Automações](automacoes) | AU01 | Tarefas automáticas (guias do INSS) |
 | [Administração](administracao) | ADM01 - ADM16 | Lojas, utilizadores, funções, licença (sem imagens) |
 
-As imagens usam a loja de demonstração **Supermercado Buinoz**. Os nomes e valores são dados de demonstração.
+As imagens usam a loja de demonstração **Supermercado Buinoz** (Lavandaria: **Lavandaria Demo**). Os nomes e valores são dados de demonstração.
 
 Dúvidas: **suporte@buinoz.com** · Experimente grátis em **buinoz.com**

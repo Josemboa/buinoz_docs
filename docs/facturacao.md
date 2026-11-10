@@ -155,6 +155,8 @@ Exporta e imprime documentos em PDF no formato talão. Escolha o documento e ger
 
 Os clientes com compras em atraso de repetição (por exemplo, medicamentos de uso contínuo). Filtre por **Atrasados**, **7 dias** ou **Todos**. Carregue em **Fidelizar** para juntar um cliente ao programa.
 
+Entram no programa as **FA** e também as **VD** com um cliente escolhido. Uma VD com o cliente genérico **Geral** não entra.
+
 ![Fidelização](/img/guias/facturacao/F13_01.webp)
 
 ## F14 - Modelo A - IVA {#f14}

@@ -153,6 +153,8 @@ Num só ecrã: lucro, margem, receita, custo, despesas, perdas e valor do stock;
 2. Carregue em **Actualizar**.
 3. Toque no ícone de cada cartão do topo para ver o detalhe.
 
+Nas contas abertas no POS, o Buinoz guarda dois vendedores: o que abriu a conta (a venda fica com ele) e o que fechou a conta (o dinheiro recebido fica com ele). Ver **ADM06**.
+
 ![Dashboard visual](/img/guias/informacao/I06_01.webp)
 ![Dashboard visual, parte de baixo](/img/guias/informacao/I06_02_scroll.webp)
 

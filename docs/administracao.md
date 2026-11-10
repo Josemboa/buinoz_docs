@@ -34,7 +34,7 @@ A mesma pessoa pode ser **Gerente** na Loja A e **Caixa** na Loja B.
 
 ## ADM01 - Gestão de Lojas {#adm01}
 
-Sem loja, os menus não aparecem. Carregue em **+ Nova Loja** e preencha o **Nome**, o **Tipo** (Restaurante, Supermercado, Mercado, Bottle Store, Take Away, Caseiros...), a **Cidade** e a **Moeda**. A loja fica logo activa para quem a criou.
+Sem loja, os menus não aparecem. Carregue em **+ Nova Loja** e preencha o **Nome**, o **Tipo** (Restaurante, Supermercado, Mercado, Bottle Store, Take Away, Caseiros, Padaria...), a **Cidade** e a **Moeda**. A loja fica logo activa para quem a criou.
 
 ## ADM02 - Histórico RPA {#adm02}
 
@@ -50,15 +50,23 @@ Escolha outra loja onde trabalha. O Buinoz recarrega tudo (permissões, produtos
 2. O administrador abre **ADM04**, carrega em **Adicionar usuário**, cola o Full ID e escolhe a função. Escreva pelo menos os **8 primeiros caracteres** do Full ID; o Buinoz mostra só esse utilizador.
 3. Carregue em **Actualizar**.
 
+As permissões individuais ("Perfil: Sem perfil") são poucas; ver [Permissões](./permissoes.md).
+
 Apagar um utilizador tira-lhe o acesso à loja; os documentos que criou ficam.
 
 ## ADM05 - Gerir Funções {#adm05}
 
 Uma função é um conjunto de permissões (ex.: criar VD, criar factura, aprovar requisições, lançar na contabilidade, ver relatórios). Carregue em **+ Nova Função**, dê um nome e marque só as permissões necessárias.
 
+Ver a lista completa e a diferença entre permissões individuais e da função em [Permissões](./permissoes.md).
+
 ## ADM06 - Gerir Vendedores {#adm06}
 
 Os vendedores do POS, com o **PIN de 6 dígitos** que usam em **POS01**. Serve para saber quem vendeu e calcular comissões.
+
+- Cada vendedor tem o seu PIN. Sem o PIN certo, não pode vender com esse nome.
+- Numa conta aberta (POS03), a venda fica com o vendedor que abriu a conta.
+- O fecho fica com o vendedor que fecha a conta: o dinheiro recebido conta para ele.
 
 ## ADM07 - Taxas de Câmbio {#adm07}
 
@@ -72,6 +80,8 @@ Cada terminal ou caixa que vende é um posto (ex.: Caixa 1, Cozinha). O nome do 
 
 O estado da licença (teste, activa ou expirada), os módulos incluídos e os limites de lojas e utilizadores. A 30 dias do fim aparece um aviso. Depois de expirar, as vendas ficam bloqueadas, mas os relatórios continuam a funcionar.
 
+No período de teste, o menu mostra **Teste grátis até (data) · máx. 10 documentos por tipo**. Ao chegar aos 10 documentos de um tipo, o Buinoz recusa o seguinte e pede para activar a subscrição em **Administração > Subscrição**.
+
 ## ADM11 - Motivos {#adm11}
 
 Os motivos das notas de crédito (ex.: Erro de facturação, Devolução). Escolhem-se ao emitir uma nota de crédito.
@@ -79,10 +89,6 @@ Os motivos das notas de crédito (ex.: Erro de facturação, Devolução). Escol
 ## ADM12 - Guia do App (PDF) {#adm12}
 
 Gera o guia completo do Buinoz em PDF, dentro da aplicação.
-
-## ADM13 - Sobre {#adm13}
-
-A versão do Buinoz e as novidades de cada versão.
 
 ## ADM14 - Auditoria da Loja {#adm14}
 

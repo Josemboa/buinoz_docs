@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import styles from './styles.module.css';
 
 const MODULOS = ['Facturação', 'POS', 'Compras e Despesas', 'Gestão de Armazém', 'Lotes e Validade',
-  'INSS Guias', 'Requisições e Aprovações', 'Contabilidade', 'Microcrédito'];
+  'INSS Guias', 'Requisições e Aprovações', 'Contabilidade', 'Microcrédito', 'Lavandaria'];
 const P_MODULO = 500, P_LOJA = 500, P_USER = 250;
 const mt = v => v.toLocaleString('pt-PT').replace(/\./g, ' ') + ' MT';
 

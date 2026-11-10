@@ -5,7 +5,7 @@ sidebar_position: 5
 
 import YouTube from '@site/src/components/YouTube';
 
-# POS e Tesouraria (POS01 - POS04, TSR01 - TSR05)
+# POS e Tesouraria (POS01 - POS05, TSR01 - TSR05)
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-pos.pdf)
 
@@ -76,6 +76,10 @@ Antes de começar: crie os postos em **ADM08 Gestão de Postos** (ex.: Mesa 1, C
 
    ![Pedido aberto](/img/guias/pos/POS03_03_pedido_aberto.webp)
 
+4. O cartão do posto mostra também quem abriu a conta e os serviços ou produtos já lançados (ex.: **vendedor · serviço · serviço**). Assim, vê logo quem atende cada cadeira ou mesa.
+
+   ![Cartão com quem abriu e os serviços](/img/guias/pos/POS03_11_cartao_funcionaria.webp)
+
 ### 2. Juntar produtos e enviar para a produção
 
 1. Toque no posto para abrir o pedido. Carregue em **+ Producto** (ou leia o código de barras) e escolha os produtos.
@@ -110,8 +114,12 @@ Antes de começar: crie os postos em **ADM08 Gestão de Postos** (ex.: Mesa 1, C
 ### 4. Cobrar e fechar o posto
 
 1. Abra o posto. Escolha o método de pagamento (**Numerário, POS, Mpesa, Emola, Mkesh, Banco**) e escreva o **Valor pago**.
-2. Carregue em **Finalizar**. A venda fica registada como **VD**.
-3. **Cancelar Pedido** apaga um pedido aberto (precisa da permissão de apagar). Um pedido já finalizado não se apaga.
+2. Carregue em **Finalizar**. A venda fica registada como **VD**. O ecrã mostra o número do documento (ex.: **Documento: VD 8/LOJA-2026**). Enquanto o número não chega do servidor, mostra **Documento nr: a sincronizar…**.
+
+   ![Número do documento no fecho](/img/guias/pos/POS03_12_numero_documento.webp)
+
+3. A venda conta para o vendedor que abriu a conta. O dinheiro conta para o vendedor que fecha a conta (ver **ADM06**).
+4. **Cancelar Pedido** apaga um pedido aberto (precisa da permissão de apagar). Um pedido já finalizado não se apaga.
 
 ![Mudar vendedor](/img/guias/pos/POS03_10_mudar_vendedor.webp)
 
@@ -126,6 +134,80 @@ Antes de começar: crie os postos em **ADM08 Gestão de Postos** (ex.: Mesa 1, C
 Mostra o estado das vendas feitas sem internet: **aguardando sincronização** e **sincronizados**. Use o ícone da nuvem para forçar a sincronização, sem esperar pelo ciclo automático.
 
 ![Sincronização offline](/img/guias/pos/POS04_01.webp)
+
+## POS05 - Marcações {#pos05}
+
+A agenda do dia, por funcionária. Serve para salões de beleza, barbearias e clínicas. Também serve para reservas de restaurante: a mesa é o posto.
+
+```
++ Nova marcação -> Cliente, Serviço, Funcionária, Cadeira/posto, data, hora, duração -> Gravar
+   -> Marcada -> Confirmada -> Em atendimento -> Concluída
+              -> Faltou / Cancelada
+```
+
+Antes de começar:
+- Crie os clientes em **F01 Clientes**.
+- Crie os serviços em **P01** (produto com **É serviço**) ou como produto composto.
+- Crie as funcionárias em **ADM06 Gerir Vendedores**.
+- Crie as cadeiras ou mesas em **ADM08 Gestão de Postos**.
+
+### 1. Criar uma marcação
+
+1. Abra **POS05** e carregue em **+ Nova marcação**.
+2. Preencha os campos:
+
+| Campo | O que é |
+|---|---|
+| Cliente * | Obrigatório. Só clientes activos desta loja |
+| Serviço | Serviços e produtos compostos activos, à venda |
+| Funcionária | Um vendedor da ADM06 |
+| Cadeira / posto | Um posto da ADM08 (cadeira, mesa) |
+| Data e hora | O início da marcação |
+| Duração (minutos) | Por defeito, 60 |
+| Observações | Texto livre |
+
+3. Carregue em **Gravar**. A marcação fica com o estado **Marcada**.
+
+   ![Nova marcação](/img/guias/pos/POS05_01_nova.webp)
+   ![Marcação gravada](/img/guias/pos/POS05_02_marcada.webp)
+
+### 2. Horário ocupado
+
+A mesma funcionária não pode ter duas marcações à mesma hora. Se o horário se cruza com outra marcação aberta (Marcada, Confirmada ou Em atendimento), o Buinoz recusa e mostra **A funcionária já tem uma marcação nesse horário.** Escolha outra hora ou outra funcionária.
+
+![Horário ocupado](/img/guias/pos/POS05_03_ocupada.webp)
+
+### 3. A agenda do dia
+
+1. Use as setas **<** e **>** para mudar de dia, ou toque na data para escolher no calendário.
+2. O topo mostra o total de marcações do dia e quantas há em cada estado.
+3. Cada linha mostra a hora de início e de fim, o cliente, o serviço, a funcionária e o estado.
+
+![Agenda do dia](/img/guias/pos/POS05_04_dia.webp)
+
+### 4. Mudar o estado
+
+Toque no botão do estado seguinte:
+
+| Estado actual | Pode passar para |
+|---|---|
+| Marcada | Confirmada, Em atendimento, Concluída, Faltou, Cancelada |
+| Confirmada | Em atendimento, Concluída, Faltou, Cancelada |
+| Em atendimento | Concluída |
+
+**Editar** só aparece em Marcada e Confirmada. Uma marcação Concluída, Faltou ou Cancelada já não muda.
+
+![Em atendimento](/img/guias/pos/POS05_05_atendimento.webp)
+![Faltou](/img/guias/pos/POS05_06_faltou.webp)
+![Concluída](/img/guias/pos/POS05_07_concluida.webp)
+
+### 5. Lembrete por WhatsApp
+
+Nas marcações abertas, carregue em **WhatsApp**. O Buinoz abre o WhatsApp com o número do cliente e esta mensagem: *Olá (cliente), lembramos a sua marcação de (serviço) no dia (dd/MM) às (HH:mm). Até já!* Confirme o envio no WhatsApp.
+
+:::tip Depois da marcação
+A marcação não cobra. Para cobrar, abra a conta na cadeira ou mesa em **POS03** e junte os serviços.
+:::
 
 ## TSR01 - Painel de Tesouraria {#tsr01}
 

@@ -12,7 +12,7 @@ Todos os guias em PDF, para descarregar e imprimir.
 
 | Guia | Páginas | Tamanho | |
 |---|---|---|---|
-| Relatórios e Informação (I01 - I07) | 19 | 7,3 MB | [Descarregar](/pdf/buinoz-guia-relatorios.pdf) |
+| Relatórios e Informação (I01 - I07) | 14 | 4,9 MB | [Descarregar](/pdf/buinoz-guia-relatorios.pdf) |
 | Produtos e Preços | 7 | 1,7 MB | [Descarregar](/pdf/buinoz-guia-produtos.pdf) |
 | Facturação e Inventário | 16 | 6,5 MB | [Descarregar](/pdf/buinoz-guia-facturacao.pdf) |
 | POS e Tesouraria | 9 | 3,5 MB | [Descarregar](/pdf/buinoz-guia-pos.pdf) |
@@ -20,10 +20,13 @@ Todos os guias em PDF, para descarregar e imprimir.
 | Gestão de Armazéns | 7 | 2,1 MB | [Descarregar](/pdf/buinoz-guia-armazem.pdf) |
 | Lotes e Validade | 3 | 0,8 MB | [Descarregar](/pdf/buinoz-guia-lotes.pdf) |
 | Aprovações e Requisições | 14 | 5,2 MB | [Descarregar](/pdf/buinoz-guia-aprovacoes.pdf) |
-| Contabilidade (CBL01 - CBL39) | 26 | 9,4 MB | [Descarregar](/pdf/buinoz-guia-contabilidade.pdf) |
+| Contabilidade (CBL01 - CBL39) | 23 | 9,0 MB | [Descarregar](/pdf/buinoz-guia-contabilidade.pdf) |
 | Microcrédito | 27 | 9,8 MB | [Descarregar](/pdf/buinoz-guia-microcredito.pdf) |
+| Lavandaria (LA01 - LA06) | 12 | 2,1 MB | [Descarregar](/pdf/buinoz-guia-lavandaria.pdf) |
 | Automações (INSS Guias) | 2 | 0,3 MB | [Descarregar](/pdf/buinoz-guia-automacoes.pdf) |
 | Administração | 4 | 0,2 MB | [Descarregar](/pdf/buinoz-guia-administracao.pdf) |
+| Buinoz apresentacao microcredito | 14 | 1,2 MB | [Descarregar](/pdf/buinoz-apresentacao-microcredito.pdf) |
+| Primeiros passos | 27 | 3,5 MB | [Descarregar](/pdf/buinoz-guia-primeiros-passos.pdf) |
 
 ## Buinoz Academy: Tours HCB Demo
 

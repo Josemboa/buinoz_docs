@@ -27,6 +27,27 @@ A lista de produtos mostra, para cada um: PVP, custo, lucro, IVA e stock actual.
 3. Carregue em **Stock I/O** para ver as entradas e saídas de um produto.
 4. Para criar ou editar, use o botão do lápis (canto inferior direito) ou toque no produto.
 
+### Importar produtos (Excel)
+
+Para carregar muitos produtos de uma vez.
+
+```
+Modelo XLSX -> preencher -> Escolher ficheiro -> ver erros e avisos -> Carregar N produto(s)
+```
+
+1. A loja precisa de autorização. Peça-a ao suporte Buinoz (normalmente disponível no 1.º mês). Sem ela, aparece **O carregamento de produtos não está autorizado nesta loja.** Com ela, aparece **Disponível até (data)**.
+2. Em **P01**, carregue no ícone **Importar produtos (Excel)** (precisa da permissão de criar produtos).
+3. Carregue em **Modelo XLSX** (só na versão web, app.buinoz.com). Preencha uma linha por produto e apague os 3 exemplos.
+   - Obrigatório: **Nome**, **Categoria**, **IVA** (16, 5 ou 0) e **Preco venda**.
+   - A categoria tem de existir na loja, com o nome igual ao da app e com acentos (ex.: Analgésicos, Água, Serviços).
+   - Números só com ponto decimal (1234.50), sem separador de milhares.
+   - Serviço: S ou N. Os serviços não têm stock.
+   - Nome ou Código que já existe na loja é recusado. A importação nunca altera produtos existentes.
+4. Carregue em **Escolher ficheiro**. O Buinoz verifica cada linha: vermelho = erro (a linha não entra), laranja = aviso (a linha entra, mas confira), verde = válida.
+5. Carregue em **Carregar N produto(s)**. Só entram as linhas sem erro.
+
+Há um limite de carregamentos por dia em cada loja. A mensagem mostra quantos já fez, ex.: **Carregamentos hoje: 1/4**.
+
 ![Lista de produtos](/img/guias/productos/P01_01.webp)
 
 ### A ficha do produto

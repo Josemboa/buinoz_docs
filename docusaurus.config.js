@@ -88,12 +88,19 @@ const config = {
             ],
           },
           { href: 'https://buinoz.com', label: 'buinoz.com', position: 'right' },
+          { href: 'https://www.tiktok.com/@buinoz0', label: 'TikTok', position: 'right' },
+          { href: 'https://www.youtube.com/channel/UCMpIijW6PnSNjqF0lzDP5OA', label: 'YouTube', position: 'right' },
           { href: 'mailto:suporte@buinoz.com', label: 'Suporte', position: 'right' },
         ],
       },
       footer: {
         style: 'dark',
-        
+        links: [
+          { label: 'buinoz.com', href: 'https://buinoz.com' },
+          { label: 'TikTok', href: 'https://www.tiktok.com/@buinoz0' },
+          { label: 'YouTube', href: 'https://www.youtube.com/channel/UCMpIijW6PnSNjqF0lzDP5OA' },
+          { label: 'Suporte', href: 'mailto:suporte@buinoz.com' },
+        ],
         copyright: `Buinoz® ${new Date().getFullYear()} `,
       },
       prism: {

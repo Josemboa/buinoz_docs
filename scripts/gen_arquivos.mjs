@@ -5,7 +5,7 @@ const dir = 'static/pdf';
 const TITLES = {
   relatorios: 'Relatórios e Informação (I01 - I07)', produtos: 'Produtos e Preços', facturacao: 'Facturação e Inventário',
   pos: 'POS e Tesouraria', compras: 'Compras e Despesas', armazem: 'Gestão de Armazéns', lotes: 'Lotes e Validade',
-  aprovacoes: 'Aprovações e Requisições', contabilidade: 'Contabilidade (CBL01 - CBL39)', microcredito: 'Microcrédito',
+  aprovacoes: 'Aprovações e Requisições', contabilidade: 'Contabilidade (CBL01 - CBL39)', microcredito: 'Microcrédito', lavandaria: 'Lavandaria (LA01 - LA06)',
   automacoes: 'Automações (INSS Guias)', administracao: 'Administração',
   'hcb-aprovacoes': 'Tour Aprovações e Requisições', 'hcb-compras-armazem': 'Tour Compras e Armazém (com Contabilizar)',
   'hcb-facturacao': 'Tour Facturação (com Contabilizar)', 'hcb-produtos': 'Tour Produtos',

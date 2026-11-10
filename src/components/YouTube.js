@@ -14,8 +14,10 @@ export default function YouTube({id, list, title, vertical = false}) {
         src={src}
         title={title}
         loading="lazy"
+        // 2026-11-10 YouTube Error 153: o embed exige Referer.
+        referrerPolicy="strict-origin-when-cross-origin"
         style={{width: '100%', aspectRatio: vertical ? '9/16' : '16/9', border: 0, borderRadius: 8}}
-        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       />
       <div style={{fontSize: '0.85rem', opacity: 0.8}}>
