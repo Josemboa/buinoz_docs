@@ -7,7 +7,17 @@ sidebar_position: 0.5
 
 O que há de novo e o que melhorou em cada versão do Buinoz.
 
-## Versão 2.18.7 (próxima)
+## Versão 2.18.9
+
+- **Título do documento**: dê um título à factura (ex.: "Renda Abril") em **F06 Observações**. O título aparece no PDF, no I02 Exploração e no Extrato de Cliente, e serve para pesquisar.
+- **Grupos de clientes (F15)**: junte clientes num grupo e junte-os de uma só vez. Veja o extrato e os documentos de todo o grupo.
+- **Extrato de Cliente (F05)**: escolha um cliente ou um grupo. O título do documento aparece no ecrã, no PDF e no Excel.
+- **Exploração (I02)**: novo filtro **Cliente / Grupo**. A pesquisa encontra também pelo nome do cliente, do grupo e pelo título.
+- **Calendário mais simples**: em todos os relatórios escolhe primeiro a data inicial e depois a data final, numa janela pequena.
+- **Telemóvel**: os filtros do F05 e do I02 cabem em duas linhas.
+- **Relatórios (I01)**: o Aging de clientes, o Balanço e o Fluxo de Caixa têm a seta para voltar aos Relatórios.
+
+## Versão 2.18.7
 
 - **Marcações (POS05)**: marque clientes em salões e reserve mesas. O Buinoz recusa a mesma funcionária ou a mesma cadeira ou mesa no mesmo horário.
 - **Tela de Produção**: mostra quem abriu a conta e os serviços. No fecho, mostra o número do documento.

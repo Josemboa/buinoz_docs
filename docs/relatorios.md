@@ -89,18 +89,20 @@ O separador **Início** e os resultados usam a contabilidade. Uma venda ou compr
 A Exploração lista todos os documentos (vendas, facturas, compras, despesas) de um período. É aqui que se fazem as acções sobre cada documento.
 
 1. Abra **I02 Exploração**.
-2. Escolha o período no calendário (canto superior esquerdo) e o tipo de documento (**Todos**, ou um tipo).
-3. Carregue em **Actualizar**. O contador mostra quantos documentos foram carregados.
-4. Use **Pesquisar Pedido** para encontrar um documento pelo número ou pelo cliente.
-5. Em cada documento, use os botões:
+2. Escolha o período no calendário (canto superior esquerdo): primeiro a **Data inicial**, depois a **Data final**.
+3. Escolha o cliente ou o grupo em **Cliente / Grupo** (ou **Todos**) e o tipo de documento.
+4. Carregue em **Actualizar**. O contador mostra quantos documentos foram carregados.
+5. Use **Pesquisar** para encontrar um documento pelo cliente, pelo grupo, pelo número ou pelo título. No telemóvel, toque na lupa para abrir a pesquisa.
+6. Em cada documento, use os botões:
    - **Confirmar**: regista o pagamento de uma Factura (FA).
    - **Criar Plano**: divide o pagamento de uma Factura em prestações.
    - **Nota de crédito** / **Nota de Débito**: anula ou corrige o documento.
    - **Actualizar stock**: dá entrada no stock de uma Compra (PO).
-6. Toque na seta **>** para abrir o documento, gerar o PDF ou o recibo.
+7. Toque na seta **>** para abrir o documento, gerar o PDF ou o recibo.
 
 ![Exploração](/img/guias/informacao/I02_01.webp)
 ![Detalhe do documento](/img/guias/informacao/I02_02_detalhe.webp)
+![Filtro por grupo de clientes](/img/guias/informacao/I02_03_grupo.webp)
 
 ## I03 - Visão de Stock {#i03}
 

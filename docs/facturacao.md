@@ -95,17 +95,29 @@ Lista as contagens de inventário. Carregue em **Novo Inventário** para começa
 O movimento de cada cliente: facturas (débito), pagamentos e notas de crédito (crédito) e o saldo em dívida, com o IVA de cada documento.
 
 1. Escolha **Data inicial** e **Data final**.
-2. Escolha o cliente (ou **All**) e o tipo de facturas.
-3. Carregue em **Actualizar**. Marque **Mostrar Apenas Totais** para um resumo.
+2. Escolha o cliente, um grupo de clientes ou **Todos**. Na lista, os grupos ficam em cima (**GRUPOS**) e os clientes em baixo (**CLIENTES**). Pode pesquisar pelo nome.
+3. Escolha o tipo de facturas e carregue em **Actualizar**. Marque **Mostrar Apenas Totais** para um resumo.
 4. Exporte com o ícone **PDF** ou **Gerar Excel**.
 
+Se escolher um grupo, o extrato junta todos os clientes do grupo, com o subtotal de cada cliente. O título do documento (ex.: "Renda Abril") aparece por baixo do número, no ecrã, no PDF e no Excel (coluna **Título**).
+
 ![Extrato de cliente](/img/guias/facturacao/F05_01.webp)
+![Escolher cliente ou grupo](/img/guias/facturacao/F05_02_grupo.webp)
+![Extrato com título do documento](/img/guias/facturacao/F05_03_titulo.webp)
 
 ## F06 - Observações {#f06}
 
-Junte uma observação a um documento já emitido (aparece no PDF). Escolha o período, pesquise o documento e toque no ícone de edição.
+Dê um título e junte uma observação a um documento já emitido. Os dois aparecem no PDF.
+
+1. Escolha o período e pesquise o documento pelo cliente, pelo título ou pelo número.
+2. Toque no ícone de edição.
+3. Escreva o **Título** (opcional, até 80 letras, ex.: "Renda Abril") e as **Observações**.
+4. Carregue em **Guardar**.
+
+O título não muda o número, os valores nem o stock. Serve para encontrar o documento depois: aparece no I02 Exploração, no Extrato de Cliente (F05) e no PDF, por cima das notas.
 
 ![Observações](/img/guias/facturacao/F06_01.webp)
+![Título do documento](/img/guias/facturacao/F06_02_titulo.webp)
 
 ## F07 - Converter em Factura {#f07}
 
@@ -168,3 +180,18 @@ A declaração periódica de IVA (Modelo A), preenchida com as vendas e compras 
 3. Use o ícone **PDF** (topo direito) para gerar a declaração.
 
 ![Modelo A](/img/guias/facturacao/F14_01.webp)
+
+## F15 - Grupos de Clientes {#f15}
+
+Junte clientes num grupo, por exemplo várias empresas do mesmo dono. O grupo serve para ver o extrato (F05) e os documentos (I02) de todos os clientes de uma só vez. O cliente fica igual; o grupo é opcional.
+
+1. Abra **F15 Grupos de Clientes** e carregue em **+** para criar um grupo. Escreva o nome e carregue em **Guardar**.
+2. Toque no grupo para ver os clientes dele.
+3. Carregue em **Adicionar clientes**. Pesquise pelo nome, marque os clientes (ou **Marcar todos os filtrados**) e carregue em **Guardar**.
+4. Para tirar clientes, marque-os na lista do grupo e carregue em **Remover**.
+
+Cada cliente fica num só grupo. Se o juntar a outro grupo, ele muda de grupo. Precisa da permissão **Criar cliente**.
+
+![Grupos de clientes](/img/guias/facturacao/F15_01.webp)
+![Clientes do grupo](/img/guias/facturacao/F15_02_grupo.webp)
+![Adicionar clientes](/img/guias/facturacao/F15_03_adicionar.webp)
