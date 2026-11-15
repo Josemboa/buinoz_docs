@@ -485,6 +485,18 @@ Todos os lançamentos do caminho B fazem-se da mesma forma, em **CBL05 - Novo La
 
 Entregue estes três relatórios ao contabilista, com a pasta das facturas do mês.
 
+## Prazos de entrega ao Estado {#prazos}
+
+| O quê | A quem | Prazo | No Buinoz |
+|---|---|---|---|
+| Contribuições do INSS (declaração e pagamento) | INSS | Do dia 20 do mês do salário até ao dia 10 do mês seguinte | **AU01 - INSS Guias**, Declarar mês |
+| Retenções de IRPS | Autoridade Tributária | Até ao dia 20 do mês seguinte | **CBL22 - Modelo 10 - IRPS** |
+| IVA (Modelo A) e pagamento | Autoridade Tributária | Do dia 1 ao último dia do mês seguinte | **CBL23 - Modelo 2 - IVA** |
+
+No INSS, o atraso dá multa de 1 a 3 salários mínimos da área de actividade por trabalhador, mais juros. Depois de pagar, lance o pagamento em **CBL05**: a conta da dívida (449 INSS, 4421 a 4425 IRPS, 4433 IVA) a débito e o banco a crédito.
+
+Os prazos podem mudar por lei. Confirme-os com o seu contabilista.
+
 ## Resumo dos cenários {#resumo}
 
 | Cenário | Caminho A (Buinoz) | Caminho B: débito | Caminho B: crédito |
