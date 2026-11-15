@@ -78,6 +78,7 @@ const config = {
             label: 'Guias por módulo',
           },
           { to: '/arquivos', label: 'Arquivos', position: 'left' },
+          { to: '/livro-contabilidade', label: 'Livro', position: 'left' },
           {
             type: 'dropdown', label: 'Comercial', position: 'left',
             items: [

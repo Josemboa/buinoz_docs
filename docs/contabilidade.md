@@ -5,6 +5,10 @@ sidebar_position: 10
 
 # Contabilidade (CBL01 - CBL39)
 
+:::tip Livro gratuito
+Para aprender a contabilidade do zero, com exercícios e soluções, descarregue o livro [Contabilidade para não contabilistas](/livro-contabilidade).
+:::
+
 [Descarregar este guia em PDF](/pdf/buinoz-guia-contabilidade.pdf)
 
 Contabilidade completa, segundo o PGC-NIRF de Moçambique (Decreto 70/2009): lançamentos automáticos a partir das vendas, compras e stock, relatórios (balancete, resultados, balanço, razão), declarações fiscais (IVA, IRPS, IRPC), SAF-T e encerramento do exercício.
