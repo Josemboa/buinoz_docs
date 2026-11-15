@@ -20,12 +20,17 @@ Todos os guias em PDF, para descarregar e imprimir.
 | Gestão de Armazéns | 7 | 2,1 MB | [Descarregar](/pdf/buinoz-guia-armazem.pdf) |
 | Lotes e Validade | 3 | 0,8 MB | [Descarregar](/pdf/buinoz-guia-lotes.pdf) |
 | Aprovações e Requisições | 14 | 5,2 MB | [Descarregar](/pdf/buinoz-guia-aprovacoes.pdf) |
-| Contabilidade (CBL01 - CBL39) | 23 | 9,0 MB | [Descarregar](/pdf/buinoz-guia-contabilidade.pdf) |
+| Contabilidade (CBL01 - CBL39) | 26 | 9,4 MB | [Descarregar](/pdf/buinoz-guia-contabilidade.pdf) |
 | Microcrédito | 27 | 9,8 MB | [Descarregar](/pdf/buinoz-guia-microcredito.pdf) |
 | Lavandaria (LA01 - LA06) | 12 | 2,1 MB | [Descarregar](/pdf/buinoz-guia-lavandaria.pdf) |
 | Automações (INSS Guias) | 2 | 0,3 MB | [Descarregar](/pdf/buinoz-guia-automacoes.pdf) |
 | Administração | 4 | 0,2 MB | [Descarregar](/pdf/buinoz-guia-administracao.pdf) |
 | Buinoz apresentacao microcredito | 14 | 1,2 MB | [Descarregar](/pdf/buinoz-apresentacao-microcredito.pdf) |
+| Buinoz contabilidade cenarios | 34 | 5,1 MB | [Descarregar](/pdf/buinoz-contabilidade-cenarios.pdf) |
+| Buinoz contabilidade passo a passo | 14 | 1,5 MB | [Descarregar](/pdf/buinoz-contabilidade-passo-a-passo.pdf) |
+| Buinoz livro contabilidade | 52 | 2,3 MB | [Descarregar](/pdf/buinoz-livro-contabilidade.pdf) |
+| Buinoz manual contabilista | 12 | 0,5 MB | [Descarregar](/pdf/buinoz-manual-contabilista.pdf) |
+| Buinoz plano de contas | 30 | 0,2 MB | [Descarregar](/pdf/buinoz-plano-de-contas.pdf) |
 | Primeiros passos | 27 | 3,5 MB | [Descarregar](/pdf/buinoz-guia-primeiros-passos.pdf) |
 
 ## Buinoz Academy: Tours HCB Demo

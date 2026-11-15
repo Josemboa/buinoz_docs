@@ -7,6 +7,21 @@ sidebar_position: 0.5
 
 O que há de novo e o que melhorou em cada versão do Buinoz.
 
+## Versão 2.19.5
+
+- **Despesas na conta certa**: ao contabilizar uma despesa, o Buinoz lê o nome e escolhe a conta. "Electricidade de Novembro" vai para a 63212, "Água" para a 63211, "Renda" para a 63232. Veja a lista em [Contabilidade por cenários](/contabilidade-cenarios#despesas).
+- **Despesa paga sem conta**: se a conta de caixa ou de banco da configuração não existir no plano, o Buinoz avisa e não contabiliza. Antes, a despesa ficava como dívida a fornecedores.
+- **CBL03** passa a chamar-se **Compras e Despesas para Contabilizar**.
+- **Guia novo**: [Contabilidade por cenários](/contabilidade-cenarios), com imagens de cada passo.
+
+## Versão 2.19.4
+
+- **Plano de contas oficial**: o Buinoz traz as 488 contas do PGC-NIRF (Decreto 70/2009). Veja a lista em [Plano de contas](/plano-de-contas).
+- **IRPS com as cinco categorias**: a retenção na fonte usa as categorias do Código do IRPS (Primeira a Quinta), com a taxa de cada uma.
+- **Retenção nas compras (CBL03)**: escolha a categoria ao contabilizar a compra. O Buinoz calcula a retenção sobre o valor sem IVA e lança-a na conta certa (4421 a 4425).
+- **Lançamento manual (CBL05)**: o botão **IRPS** da linha mostra as cinco categorias e preenche a taxa.
+- **Guias novos**: [Contabilidade passo a passo](/contabilidade-passo-a-passo), para quem não é contabilista, e [Manual do contabilista](/manual-contabilista).
+
 ## Versão 2.18.9
 
 - **Título do documento**: dê um título à factura (ex.: "Renda Abril") em **F06 Observações**. O título aparece no PDF, no I02 Exploração e no Extrato de Cliente, e serve para pesquisar.

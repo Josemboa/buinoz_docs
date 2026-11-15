@@ -7,12 +7,20 @@ sidebar_position: 10
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-contabilidade.pdf)
 
-Contabilidade completa, segundo o PGC-NIRF de Moçambique: lançamentos automáticos a partir das vendas, compras e stock, relatórios (balancete, resultados, balanço, razão), declarações fiscais (IVA, IRPS, IRPC), SAF-T e encerramento do exercício.
+Contabilidade completa, segundo o PGC-NIRF de Moçambique (Decreto 70/2009): lançamentos automáticos a partir das vendas, compras e stock, relatórios (balancete, resultados, balanço, razão), declarações fiscais (IVA, IRPS, IRPC), SAF-T e encerramento do exercício.
 
 ```
 Configurar (CBL27-CBL33) -> Contabilizar vendas/compras/stock (CBL02-CBL04)
 -> Lançamentos (CBL05-CBL08) -> Relatórios (CBL10-CBL20) -> Fiscal (CBL22-CBL25) -> Encerramento (CBL31)
 ```
+
+:::tip Não é contabilista?
+Comece por [Contabilidade passo a passo](/contabilidade-passo-a-passo): o que fazer uma vez, todos os dias e todos os meses, sem saber contabilidade. Depois veja [Contabilidade por cenários](/contabilidade-cenarios): venda, factura, compra, luz, água, renda e salários, com imagens.
+:::
+
+:::tip Para o contabilista
+As regras, as contas e os lançamentos de cada documento estão no [Manual do contabilista](/manual-contabilista). A lista das 488 contas oficiais está em [Plano de contas (PGC-NIRF)](/plano-de-contas).
+:::
 
 ## Configurar (faça primeiro)
 
@@ -43,7 +51,8 @@ Contas oficiais do PGC-NIRF (Decreto 70/2009) usadas por defeito:
 | IVA das compras | 4432 | IVA dedutível |
 | IVA das vendas | 4433 | IVA liquidado |
 | Vendas de mercadorias | 711 | Vendas |
-| Prestações de serviços | 721 | Prestações de serviços |
+| Prestações de serviços | 72 | Prestação de serviços |
+| Retenções de IRPS | 4422 | Impostos retidos na fonte |
 
 Uma despesa paga na hora (numerário ou banco) sai de 111 ou 121, não de 421.
 
@@ -96,7 +105,7 @@ Se já existir um lançamento manual de vendas no mesmo mês com valor próximo 
 
 ![Aviso de possível duplicado](/img/guias/contabilidade/CBL02_04_duplicado.webp)
 
-### CBL03 - Compras para Contabilizar, CBL04 - Stock para Contabilizar {#cbl03}
+### CBL03 - Compras e Despesas para Contabilizar, CBL04 - Stock para Contabilizar {#cbl03}
 
 Funcionam como a CBL02, para as compras e para os movimentos de stock (ganhos e perdas). Uma compra (PO) vai para 211 Compras + 4432 IVA dedutível, contra 421 Fornecedores. Uma despesa (EX) vai para 63x, contra 111/121 se foi paga na hora. Depois, como nas vendas: **Aprovar e Lançar** em CBL06.
 
@@ -220,7 +229,7 @@ A declaração mensal de IVA: escolha o **Ano** e o **Mês**. Mostra as operaç�
 
 ### CBL22 - Modelo 10 - IRPS {#cbl22}
 
-As retenções na fonte de IRPS do período. Para aparecerem, registe a retenção nos lançamentos (CBL05) ou nas compras.
+As retenções na fonte de IRPS do período (M10), pelas cinco categorias do Código do IRPS. Para aparecerem, registe a retenção no botão **IRPS** da linha do lançamento (CBL05) ou escolha a categoria ao contabilizar a compra (CBL03). Veja as categorias, as taxas e um exemplo em [Manual do contabilista: IRPS](/manual-contabilista#irps).
 
 ![Modelo 10](/img/guias/contabilidade/CBL22_01.webp)
 
