@@ -308,13 +308,13 @@ Registe-a em **CD03**, como no cenário 5. Ao contabilizar em **CBL03**, escolha
 
 ### Caminho B: lançar a renda à mão
 
-Exemplo: renda de 15 000,00 MT, com retenção de 14% (2 100,00). O senhorio recebe 12 900,00.
+Exemplo: renda de 15 000,00 MT, com retenção de 20% (3 000,00). O senhorio recebe 12 000,00. Até 2025 retinha-se 20% sobre 70% da renda (14%); essa redução acabou com a reforma do IRPS.
 
 | Conta | Débito | Crédito |
 |---|---|---|
 | 63232 Rendas e alugueres | 15 000,00 | |
-| 4424 Retenção - Rendimentos prediais | | 2 100,00 |
-| 121 Depósitos à ordem | | 12 900,00 |
+| 4424 Retenção - Rendimentos prediais | | 3 000,00 |
+| 121 Depósitos à ordem | | 12 000,00 |
 
 Na linha da 4424, carregue no botão **IRPS** e indique a categoria, o valor, a taxa, o nome e o NUIT do senhorio. Sem isto, a retenção não aparece no Modelo 10.
 
@@ -334,7 +334,7 @@ O Buinoz **não calcula salários**. Faça as contas fora (ou peça ao contabili
 |---|---|---|
 | 622 Remunerações dos trabalhadores | Salário bruto | |
 | 4421 Retenção - Trabalho dependente | | IRPS descontado |
-| Conta do INSS (peça o código ao contabilista) | | INSS descontado ao trabalhador |
+| 449 Contribuições para o INSS | | INSS descontado ao trabalhador (3%) |
 | 4622 Remunerações a pagar aos trabalhadores | | Salário líquido |
 
 **Quando paga o salário**
@@ -344,7 +344,7 @@ O Buinoz **não calcula salários**. Faça as contas fora (ou peça ao contabili
 | 4622 Remunerações a pagar aos trabalhadores | Salário líquido | |
 | 121 Depósitos à ordem (ou 111 Caixa) | | Salário líquido |
 
-A parte do INSS que é paga pela empresa é um gasto a mais (conta **623 Encargos sobre remunerações**). As guias do INSS têm um módulo próprio: veja [Automações](/automacoes).
+A parte do INSS paga pela empresa (4%) é um gasto a mais: **623 Encargos sobre remunerações** a débito e **449** a crédito. Quando paga a guia do INSS, debite a 449 e credite o banco. As guias do INSS têm um módulo próprio: veja [Automações](/automacoes).
 
 ---
 
@@ -496,7 +496,7 @@ Entregue estes três relatórios ao contabilista, com a pasta das facturas do m�
 | Pagar ao fornecedor | | 421 | 121 ou 111 |
 | Água, luz, combustível | CD03 (conta escolhida pelo nome) | 6321x e 4432 | 121 ou 111 |
 | Renda com retenção | CD03 + CBL03 | 63232 | 4424 e 121 |
-| Salários | (não há) | 622 | 4421, INSS e 4622 |
+| Salários | (não há) | 622 | 4421, 449 e 4622 |
 | Depósito da caixa no banco | (não há) | 121 | 111 |
 | Empréstimo recebido | (não há) | 121 | 43 |
 | Equipamento | (não há) | 32x e 4432 | 121 |
