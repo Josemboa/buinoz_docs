@@ -497,6 +497,8 @@ No INSS, o atraso dá multa de 1 a 3 salários mínimos da área de actividade p
 
 Os prazos podem mudar por lei. Confirme-os com o seu contabilista.
 
+[Descarregar a lista do mês para imprimir (1 página)](/pdf/buinoz-lista-mensal-contabilidade.pdf)
+
 **Fontes:** Decreto n.º 70/2009 (PGC-NIRF); Lei n.º 22/2022 e Lei n.º 3/2025 (Código do IVA, art. 17 e 32); Lei n.º 33/2007 e Lei n.º 11/2025 (CIRPS, art. 65); Lei n.º 4/2007 e Decreto n.º 53/2007 (INSS); [Autoridade Tributária](https://www.at.gov.mz/eng/Tax-Procedures/Value-Added-Tax); [INSS - Dúvidas](https://www.inss.gov.mz/duvidas/); [folheto do novo Regulamento do INSS](https://www.inss.gov.mz/wp-content/uploads/2024/04/Folheto-sobre-inovacoes-do-Regulamento-de-Seguranca-Social-Obrigatoria.pdf); [RSM Guia Fiscal 2026](https://www.rsm.global/mozambique/sites/default/files/media/documents/Mo%C3%A7ambique%20Guia%20Fiscal%202026.PT%20_0.pdf); [Moore - Fazer negócios em Moçambique](https://mooremz.co.mz/pt/fazer-negocios-em-mocambique/); [Moore - Reforma fiscal](https://mooremz.co.mz/tax-reform/); [DLA Piper - Alterações ao CIVA](https://www.dlapiperafrica.com/pt/mozambique/insights/2026/Changes-to-the-Value-Added-Tax-Code-).
 
 ## Resumo dos cenários {#resumo}
