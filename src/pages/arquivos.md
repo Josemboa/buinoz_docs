@@ -26,9 +26,9 @@ Todos os guias em PDF, para descarregar e imprimir.
 | Automações (INSS Guias) | 2 | 0,3 MB | [Descarregar](/pdf/buinoz-guia-automacoes.pdf) |
 | Administração | 4 | 0,2 MB | [Descarregar](/pdf/buinoz-guia-administracao.pdf) |
 | Buinoz apresentacao microcredito | 14 | 1,2 MB | [Descarregar](/pdf/buinoz-apresentacao-microcredito.pdf) |
-| Buinoz contabilidade cenarios | 35 | 5,1 MB | [Descarregar](/pdf/buinoz-contabilidade-cenarios.pdf) |
+| Buinoz contabilidade cenarios | 33 | 5,3 MB | [Descarregar](/pdf/buinoz-contabilidade-cenarios.pdf) |
 | Buinoz contabilidade passo a passo | 14 | 1,5 MB | [Descarregar](/pdf/buinoz-contabilidade-passo-a-passo.pdf) |
-| Buinoz livro contabilidade | 60 | 2,3 MB | [Descarregar](/pdf/buinoz-livro-contabilidade.pdf) |
+| Buinoz livro contabilidade | 65 | 2,7 MB | [Descarregar](/pdf/buinoz-livro-contabilidade.pdf) |
 | Buinoz manual contabilista | 12 | 0,5 MB | [Descarregar](/pdf/buinoz-manual-contabilista.pdf) |
 | Buinoz plano de contas | 30 | 0,2 MB | [Descarregar](/pdf/buinoz-plano-de-contas.pdf) |
 | Primeiros passos | 27 | 3,5 MB | [Descarregar](/pdf/buinoz-guia-primeiros-passos.pdf) |
