@@ -221,11 +221,13 @@ O relatório anual completo, em PDF.
 
 ## Fiscal
 
-### CBL23 - Modelo 2 - IVA {#cbl23}
+### CBL23 - Modelo A - IVA (Contabilidade) {#cbl23}
 
-A declaração mensal de IVA: escolha o **Ano** e o **Mês**. Mostra as operações tributáveis (vendas), as operações dedutíveis (compras) e o apuramento (IVA a entregar ou a recuperar). Gere o PDF ou o Excel.
+A declaração periódica do IVA (Modelo A), preenchida a partir dos **lançamentos já lançados** do mês: vendas a 16%, a 5% e isentas (campos 01 a 05), IVA dedutível das compras separado em imobilizado, existências e outros bens e serviços (campos 06 a 08) e o crédito que vem do mês anterior (campo 17). Escolha o **Mês** e o **Ano**. Documentos por contabilizar e rascunhos não entram.
 
-![Modelo 2 IVA](/img/guias/contabilidade/CBL23_01.webp)
+Se usa a contabilidade, declare sempre pelo CBL23: só ele inclui os lançamentos à mão. (O **F14** faz o Modelo A a partir dos documentos, para lojas sem contabilidade.)
+
+![Modelo A a partir da contabilidade](/img/guias/contabilidade/MX_15_cbl23_modelo_a.webp)
 
 ### CBL22 - Modelo 10 - IRPS {#cbl22}
 

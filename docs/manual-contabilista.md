@@ -143,7 +143,7 @@ Os ganhos e as perdas de inventário (acertos, quebras) usam as três contas de 
 
 - O IVA das vendas vai para **4433 IVA liquidado**. O IVA das compras vai para **4432 IVA dedutível**.
 - Produtos antigos que ainda têm a taxa de 17% continuam a vender a 17%. O Dashboard (I06) mostra um aviso com esses produtos. Corrija a taxa de cada produto em **P01**.
-- As declarações estão em **F14 - Modelo A - IVA** (a partir dos documentos) e em **CBL23 - Modelo 2 - IVA** (a partir dos lançamentos lançados).
+- As declarações estão em **F14 - Modelo A - IVA** (a partir dos documentos) e em **CBL23 - Modelo A - IVA (Contabilidade)** (a partir dos lançamentos lançados).
 
 ## 7. IRPS: retenção na fonte {#irps}
 

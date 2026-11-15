@@ -7,6 +7,11 @@ sidebar_position: 0.5
 
 O que há de novo e o que melhorou em cada versão do Buinoz.
 
+## Versão 2.19.7
+
+- **Modelo A com as compras (F14)**: os campos 07 (existências) e 08 (outros bens e serviços) passam a ter o IVA das compras (CD02) e das despesas (CD03) do mês. Antes ficavam a zero e o IVA a entregar saía a mais. Entradas de stock não são compras e não entram.
+- **CBL23 passa a ser o Modelo A da contabilidade**: o mesmo impresso do F14, preenchido a partir dos lançamentos lançados, com o crédito do mês anterior no campo 17. Os dois devem dar o mesmo resultado; se não derem, há documentos por contabilizar.
+
 ## Versão 2.19.5
 
 - **Despesas na conta certa**: ao contabilizar uma despesa, o Buinoz lê o nome e escolhe a conta. "Electricidade de Novembro" vai para a 63212, "Água" para a 63211, "Renda" para a 63232. Veja a lista em [Contabilidade por cenários](/contabilidade-cenarios#despesas).

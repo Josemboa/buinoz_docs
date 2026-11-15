@@ -479,7 +479,7 @@ Todos os lançamentos do caminho B fazem-se da mesma forma, em **CBL05 - Novo La
 
 ![Demonstração de resultados](/img/guias/contabilidade/MX_91_resultados.webp)
 
-**CBL23 - Modelo 2 - IVA**: o IVA das vendas, o IVA das compras e o que há a entregar no mês.
+**CBL23 - Modelo A - IVA (Contabilidade)**: o Modelo A do mês, com o IVA das vendas, o IVA das compras e o que há a entregar ou a recuperar.
 
 ![IVA do mês](/img/guias/contabilidade/MX_93_iva.webp)
 

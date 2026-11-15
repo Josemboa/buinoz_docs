@@ -164,7 +164,7 @@ Depois veja estes quatro sinais. Se algum aparecer, não tente corrigir: aponte 
 
 - **CBL11 - Demonstração de Resultados**: quanto vendeu, quanto gastou e quanto ganhou.
 - **CBL12 - Balanço**: o que a loja tem e o que deve.
-- **CBL23 - Modelo 2 - IVA**: o IVA a entregar ou a recuperar no mês.
+- **CBL23 - Modelo A - IVA (Contabilidade)**: o Modelo A do mês a partir dos lançamentos, com o IVA a entregar ou a recuperar.
 
 ## Parte 4. O que entregar ao contabilista {#entregar}
 
