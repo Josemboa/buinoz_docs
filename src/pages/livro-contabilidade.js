@@ -11,19 +11,19 @@ const field = {display: 'block', width: '100%', padding: 10, margin: '6px 0 14px
   border: '1px solid #ccc', borderRadius: 6, fontSize: 16};
 
 export default function Livro() {
-  const [f, setF] = useState({nome: '', telefone: '', email: '', negocio: ''});
+  const [f, setF] = useState({nome: '', email: '', negocio: ''});
   const [estado, setEstado] = useState('');
   const set = (k) => (e) => setF({...f, [k]: e.target.value});
 
   async function enviar(e) {
     e.preventDefault();
-    if (!f.nome.trim() || (!f.telefone.trim() && !f.email.trim())) {
+    if (!f.nome.trim() || !/^\S+@\S+\.\S+$/.test(f.email.trim())) {
       setEstado('erro-campos');
       return;
     }
     setEstado('a-enviar');
     const texto = `Pedido do livro Contabilidade para nao contabilistas\n\n` +
-      `Nome: ${f.nome}\nTelefone: ${f.telefone}\nEmail: ${f.email}\nNegocio: ${f.negocio}\n` +
+      `Nome: ${f.nome}\nEmail: ${f.email}\nNegocio: ${f.negocio}\n` +
       `Data: ${new Date().toISOString()}`;
     try {
       // Nunca deixar o leitor a espera: no maximo 8 s pelo email.
@@ -57,11 +57,10 @@ export default function Livro() {
         ) : (
           <form onSubmit={enviar}>
             <label>Nome *<input style={field} value={f.nome} onChange={set('nome')} /></label>
-            <label>Telefone<input style={field} value={f.telefone} onChange={set('telefone')} /></label>
-            <label>Email<input style={field} type="email" value={f.email} onChange={set('email')} /></label>
+            <label>Email *<input style={field} type="email" value={f.email} onChange={set('email')} /></label>
             <label>Negócio (ex.: mercearia, farmácia)<input style={field} value={f.negocio} onChange={set('negocio')} /></label>
             {estado === 'erro-campos' && (
-              <p style={{color: '#b00'}}>Escreva o nome e o telefone ou o email.</p>)}
+              <p style={{color: '#b00'}}>Escreva o nome e um email válido.</p>)}
             <button className="button button--primary button--lg" type="submit"
               disabled={estado === 'a-enviar'}>
               {estado === 'a-enviar' ? 'A enviar...' : 'Descarregar o livro'}
