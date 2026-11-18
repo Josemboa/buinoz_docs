@@ -3,6 +3,8 @@ title: Contabilidade
 sidebar_position: 10
 ---
 
+import YouTube from '@site/src/components/YouTube';
+
 # Contabilidade (CBL01 - CBL39)
 
 ## Aula em vídeo (14 minutos)
@@ -43,6 +45,10 @@ Para aprender a contabilidade do zero, com exercícios e soluções, descarregue
 :::
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-contabilidade.pdf)
+
+### Vídeo
+
+<YouTube id="iqSjyfCStuc" title="Aula de Contabilidade no Buinoz" />
 
 Contabilidade completa, segundo o PGC-NIRF de Moçambique (Decreto 70/2009): lançamentos automáticos a partir das vendas, compras e stock, relatórios (balancete, resultados, balanço, razão), declarações fiscais (IVA, IRPS, IRPC), SAF-T e encerramento do exercício.
 

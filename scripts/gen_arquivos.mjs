@@ -27,7 +27,7 @@ fs.writeFileSync('src/pages/arquivos.md', `---
 title: Arquivos
 ---
 
-{/* Gerado por scripts/gen_arquivos.mjs. Nao editar a mao. */}
+<!-- Gerado por scripts/gen_arquivos.mjs. Nao editar a mao. -->
 
 # Arquivos
 
