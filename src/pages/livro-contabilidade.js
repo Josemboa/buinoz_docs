@@ -51,6 +51,7 @@ export default function Livro() {
         <p>Livro gratuito de José Leonel Boa, em PDF. Deixe o seu contacto e
           o download começa logo a seguir. Usamos o contacto só para lhe
           enviar novas edições e responder a dúvidas.</p>
+        <p style={{color: '#555', fontSize: 14}}>Edição 1.1, 18 de Novembro de 2026, para o Buinoz 2.19.7.</p>
         {estado === 'ok' ? (
           <p><b>Obrigado.</b> Se o download não começou,{' '}
             <a href={PDF} target="_blank" rel="noopener">carregue aqui</a>.</p>

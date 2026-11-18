@@ -5,6 +5,39 @@ sidebar_position: 10
 
 # Contabilidade (CBL01 - CBL39)
 
+## Aula em vídeo (14 minutos)
+
+Comece aqui. Uma aula completa, como um professor à frente dos alunos: o que é uma conta, débito e crédito, o plano de contas, vender, facturar, comprar, despesas, lançamento manual, fechar o mês, IVA, I.R.P.S., os mapas e como corrigir um engano. Tudo com a loja de demonstração Mercearia Exemplo.
+
+<video controls preload="metadata" style={{width: '100%', borderRadius: 8}} src="/video/buinoz-aula-contabilidade.mp4"></video>
+
+[Descarregar o vídeo](/video/buinoz-aula-contabilidade.mp4) · [Apresentação da aula em PDF](/pdf/buinoz-aula-contabilidade-apresentacao.pdf) · [Livro Contabilidade para não contabilistas](/livro-contabilidade)
+
+<details>
+<summary>As 18 lições da aula</summary>
+
+- **0:00** Abertura
+- **0:22** Para que serve a contabilidade
+- **0:59** As três perguntas
+- **1:18** A conta
+- **1:58** Débito e crédito
+- **3:00** O plano de contas
+- **4:00** Preparar a loja
+- **4:48** Os dois caminhos
+- **5:12** Vender a pronto
+- **5:51** Factura a crédito e cobrança
+- **6:31** Comprar mercadoria
+- **7:31** Despesas
+- **8:07** Lançamento manual
+- **9:26** Contabilizar o mês
+- **10:10** O IVA e o Modelo A
+- **11:01** I.R.P.S. e prazos
+- **11:46** Os mapas
+- **12:23** Corrigir um engano
+- **13:01** O contabilista e o fecho
+
+</details>
+
 :::tip Livro gratuito
 Para aprender a contabilidade do zero, com exercícios e soluções, descarregue o livro [Contabilidade para não contabilistas](/livro-contabilidade).
 :::
