@@ -11,9 +11,9 @@ import YouTube from '@site/src/components/YouTube';
 
 Comece aqui. Uma aula completa, como um professor à frente dos alunos: o que é uma conta, débito e crédito, o plano de contas, vender, facturar, comprar, despesas, lançamento manual, fechar o mês, IVA, I.R.P.S., os mapas e como corrigir um engano. Tudo com a loja de demonstração Mercearia Exemplo.
 
-<video controls preload="metadata" style={{width: '100%', borderRadius: 8}} src="/video/buinoz-aula-contabilidade.mp4"></video>
+<YouTube id="iqSjyfCStuc" title="Aula de Contabilidade no Buinoz" />
 
-[Descarregar o vídeo](/video/buinoz-aula-contabilidade.mp4) · [Apresentação da aula em PDF](/pdf/buinoz-aula-contabilidade-apresentacao.pdf) · [Livro Contabilidade para não contabilistas](/livro-contabilidade)
+[Ver no YouTube](https://youtu.be/iqSjyfCStuc) · [Apresentação da aula em PDF](/pdf/buinoz-aula-contabilidade-apresentacao.pdf) · [Livro Contabilidade para não contabilistas](/livro-contabilidade)
 
 <details>
 <summary>As 18 lições da aula</summary>
@@ -45,10 +45,6 @@ Para aprender a contabilidade do zero, com exercícios e soluções, descarregue
 :::
 
 [Descarregar este guia em PDF](/pdf/buinoz-guia-contabilidade.pdf)
-
-### Vídeo
-
-<YouTube id="iqSjyfCStuc" title="Aula de Contabilidade no Buinoz" />
 
 Contabilidade completa, segundo o PGC-NIRF de Moçambique (Decreto 70/2009): lançamentos automáticos a partir das vendas, compras e stock, relatórios (balancete, resultados, balanço, razão), declarações fiscais (IVA, IRPS, IRPC), SAF-T e encerramento do exercício.
 
